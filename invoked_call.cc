@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include "syscall_kernel.hpp"
 
 struct offload_target_x86_obsolete_preventation_configure_gcc_13_2_std
 {
