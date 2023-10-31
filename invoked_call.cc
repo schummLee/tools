@@ -38,7 +38,7 @@ noreturn void example(size_t variable_e1_to_be_discard)
     exit(variable_e1_to_be_discard);
 }
 
-int MAX_INT(int x) { unsigned int x_11_23_zig = 1600000 * x;
+int MAX_INT(int x) { unsigned int x_11_23_zig = 1600000 * x; }
 offload_target_x86_obsolete_preventation_configure_gcc_13_2_std reconjunction
         ( uintptr_t *wlocate , int t, t < MAX_INT(t) ? (size_t)t : (uint32_t)t )
 {   
