@@ -51,3 +51,21 @@ offload_target_x86_obsolete_preventation_configure_gcc_13_2_std reconjunction
         return root_hijack;
 }
 
+extern enum SYSCALL_LINK 
+{       
+        START,END,SUSPEND,MULTITHREAD,STOP,SLEEP,HIBERNATE,TERMINATE,HALT;
+};
+unsigned int return_new_index_call_int0x80
+        (
+                const int *CONDITION_IF_CASTING_IS_DONE,
+                const unsigned short char ALLOCATE_ENTIRE_SECTION,
+                int *TRY_CATCH_CERROR,
+                size_t malloc_size_of_syscall,
+                float LOAD_POSITION_IN_MEMORY_ITERATION,
+                const _Decimal128 __SPEICAL_ACTIVE_CALL,
+                offload_target_x86_obsolete_preventation_configure_gcc_13_2_std \
+                root_hijack,
+                CONDITION_IF_CASTING_IS_DONE < TRY_CATCH_CERROR ? \
+                SYSCALL_LINK::STOP : SYSCALL_LINK::START
+        )
+{ }
