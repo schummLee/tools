@@ -67,12 +67,12 @@ unsigned int return_new_index_call_int0x80(
 	
 struct vec3 
 { 
-    float w1, float w2, float w3, unsigned int type 
+    float w1; float w2; float w3; unsigned int type ;
 };
 // vector3 is player positon reflect on the matrix map 0x00000000
 struct vec4 
 {
-    float v1, float v2, float v3, unsigned int type
+    float v1; float v2; float v3; unsigned int type;
 };	
 // vector4 is the player view in unreal engine or by calc(float x,float y, float z)
 union shall_using_in_cpnsecutive_invoke{ vec3 v3; vec4 v4; };
