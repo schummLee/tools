@@ -67,12 +67,12 @@ unsigned int return_new_index_call_int0x80(
 	
 struct vec3 
 { 
-    float w1; float w2; float w3; unsigned int type ;
+    float w1, float w2, float w3, unsigned int type 
 };
 // vector3 is player positon reflect on the matrix map 0x00000000
 struct vec4 
 {
-    float v1; float v2; float v3; unsigned int type;
+    float v1, float v2, float v3, unsigned int type
 };	
 // vector4 is the player view in unreal engine or by calc(float x,float y, float z)
 union shall_using_in_cpnsecutive_invoke{ vec3 v3; vec4 v4; };
@@ -84,6 +84,22 @@ struct threeDimensionalModelInclineOffset
     vec4 v4_update_in_realtime_sync;
     bool mutex_thread_enabled option;
 };
+
+// if we want to add in new section in the .data we need to regrep the allocation on the 
+//    heap and remove the old dataset also free()
+
+extern inline threeDimensionalModekInclineOffset enableDataFlow(vec3 v3,vec4 v4, sizt_t Gy)
+{
+    struct threeDimensionalModelInclineOffset TDMIO;
+    while(return_new_index_call_int0x80 == 0)
+    {   
+        // TDMIO modified as called
+        // defined function here to avert syscall on the stack , terminated mutex thread proc
+    }
+    return TDMIO;
+}
+
+
 
 
 
