@@ -110,14 +110,29 @@ void calling_invoked_suspend_proc_in_wait
 
 // feiue karus , god und vetherluand;
 
+extern inline void test_1_1000()
+{
+}
 
 
 
+struct if_static_cast_is_unpermitted
+{
+    void define_cast_type_initalized();
+    unsigned short char revoke_all_mem;
+    int syscall_ID;
+    extern inline bool code_detected;
+    unsigned long long index_cstr;
+}
 
+extern if_static_cast_is_unpermitted engage_engage__()
+{
+    struct if_static_cast_is_unpermitted revoke;
+    return revoke;
+}
 
-
-
-
+// this will be the new standard for future project
+    // each project will at least make its structure-like root in a seperated file and extern
 
 
 
