@@ -99,7 +99,16 @@ extern inline threeDimensionalModekInclineOffset enableDataFlow(vec3 v3,vec4 v4,
     return TDMIO;
 }
 
+void calling_invoked_suspend_proc_in_wait
+    (
+        unsigned long long double PID;
+        [[maybe_unused]] bool oneone_thousand;
+        void enwaking_proc_jmp_und_luffuw;
+    )
+{
+}
 
+// feiue karus , god und vetherluand;
 
 
 
