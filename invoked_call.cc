@@ -114,7 +114,9 @@ extern inline void test_1_1000()
 {
 }
 
-
+void define_cast_type_initalized()
+{
+}
 
 struct if_static_cast_is_unpermitted
 {
